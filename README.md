@@ -1,4 +1,4 @@
-In this project, let's build **Nxt Trendz** app with authentication by applying the concepts we have learned till now.
+In this project, I am working on **Nxt Trendz** app with authentication.
 
 ### Refer to the image below:
 
@@ -34,7 +34,7 @@ In this project, let's build **Nxt Trendz** app with authentication by applying 
 <summary>Functionality to be added</summary>
 <br/>
 
-The app must have the following functionalities
+The app must will have the following functionalities
 
 - When invalid credentials are provided in the login form and **Login** button is clicked, then the respective error message from the response should be displayed
 - When the **username** and **password** are provided correctly and **Login** button is clicked, then the page should navigate to Home Route
@@ -92,7 +92,7 @@ Returns a response based on the credentials provided
 <summary>Implementation Files</summary>
 <br/>
 
-Use these files to complete the implementation:
+Use these files to see the complete implementation:
 
 - `src/App.js`
 - `src/components/LoginForm/index.js`
@@ -103,38 +103,6 @@ Use these files to complete the implementation:
 - `src/components/Header/index.css`
 </details>
 
-### Quick Tips
-
-<details>
-<summary>Click to view</summary>
-<br>
-
-- You can use the `box-shadow` CSS property to apply the box-shadow effect to containers
-
-  ```
-    box-shadow: 0px 4px 16px 0px #bfbfbf;
-  ```
-
-  <br/>
-   <img src="https://assets.ccbp.in/frontend/content/react-js/box-shadow-img.png" alt="box shadow" style="width:200px" />
-
-- You can use the `cursor` CSS property to specify the mouse cursor to be displayed when pointing over an element
-
-  ```
-    cursor: pointer;
-  ```
-
-  <br/>
-   <img src="https://assets.ccbp.in/frontend/content/react-js/cursor-pointer-img.png" alt="cursor pointer" style="width:100px" />
-
-- You can use the below `outline` CSS property for buttons and input elements to remove the highlighting when the elements are clicked
-
-  ```
-    outline: none;
-  ```
-
-</details>
-
 ### Important Note
 
 <details>
@@ -142,11 +110,10 @@ Use these files to complete the implementation:
 
 <br/>
 
-**The following instructions are required for the tests to pass**
+**The following instructions are required for authentication**
 
 - `Home` route should consist of `/` in the URL path
 - `Login` route should consist of `/login` in the URL path
-- No need to use the `BrowserRouter` in `App.js` as we have already included in `index.js`
 - User credentials
 
   ```text
@@ -194,10 +161,3 @@ Use these files to complete the implementation:
 - Roboto
 
 </details>
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
